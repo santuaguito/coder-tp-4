@@ -14,14 +14,14 @@ body{
 /* Mobile style */
 
 @media only screen and (max-width: 600px){
-    .linkedin,
-    .instagrma,
-    .github,
+    .pie,
+    .page,
     .port,
-    .tabla{
+    .tabla,
+    .text{
         width: 100%;
     }
-    p, h3{
+    p, h3, footer{
         color: white;
     }
    
@@ -33,15 +33,16 @@ body{
 /* Tablet Style */
 
 @media only screen and (min-width: 600px) and (max-width:960px){
-    .linkedin,
-    .instagrma,
-    .github,
+    .pie,
+    .page,
     .port,
-    .tabla{
+    .tabla,
+    .cur{
         width: 50% !important;  
     }
-    p, h3{
+    p, h3, .text{
         color: white;
+        
     }
 }
 
@@ -52,12 +53,14 @@ body{
         width: 960px;
         margin: 0 auto;
     }
-    .linkedin,
-    .instagrma,
-    .github,
+    .page,
     .port,
-    .tabla{
+    .tabla,
+    .pie{
         width: 33,3%;
+    }
+    p, h3, footer{
+        color: white;
     }
 
 
@@ -326,7 +329,11 @@ button{
 .alert{
     background-color: grey;
     color: white;
-    text-align: center;  
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+     
 }
 
 .pie{
@@ -346,4 +353,18 @@ footer{
     text-align: center;
 }
 
-.page
+h4{
+    color: white;
+    
+    text-align: center;
+    margin: 15px;
+} 
+
+.text{
+    border: 1px solid grey;
+    margin: 50px;
+    line-height: 30pt;
+    font-size: 15px;
+    text-align: left;
+    justify-content: center;
+}
