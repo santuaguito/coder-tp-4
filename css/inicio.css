@@ -138,8 +138,14 @@ header nav ul li a{
 
 
 .page{
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 130px;
+    text-decoration: none;
+}
+
+section a{
+    text-decoration: none;
 }
 .section{
     width: 100%;
@@ -339,3 +345,5 @@ footer{
 .boton1{
     text-align: center;
 }
+
+.page
