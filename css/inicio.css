@@ -21,13 +21,18 @@ body{
     .text{
         width: 100%;
     }
-    p, h3, footer{
+    p, h3, footer, h4{
         color: white;
     }
-   
+    .text, .cv{
+        padding: 10px;
+        margin: 10px;
+    }
 
+    h4{
+        text-align: center;
+    }
     
-
 }
 
 /* Tablet Style */
@@ -238,6 +243,10 @@ p{
     flex-direction: column;
     background-color:black;
 }
+.dat{
+    margin: 10px;
+    padding: 10px;
+}
 
 .tabla{
     color: white;
@@ -254,7 +263,7 @@ p{
 
 input[type=text], input[type=email], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: -5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
@@ -301,7 +310,10 @@ button{
     width: 100px;
     text-align: center; 
 }
-
+option{
+    background-color: grey;
+    color: white;
+}
 
 .env{
     display: flex;
