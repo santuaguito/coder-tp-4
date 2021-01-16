@@ -55,14 +55,9 @@ a {
   justify-content: space-around;
 }
 
-.boton2 {
-  font-size: 200%;
-  display: flex;
-  justify-content: space-between;
-  display: block;
-}
 
-.boton, .bye, .boton2 {
+
+.boton, .bye, {
   margin: 150px;
 }
 

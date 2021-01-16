@@ -22,7 +22,7 @@ body{
     .rotate{
         width: 100%;
     }
-    p, h3, footer, h4{
+    p, h3, footer, h4, .form-group{
         color: white;
     }
     .text, .cv{
@@ -30,7 +30,7 @@ body{
         margin: 10px;
     }
 
-    h4, .boton{
+    h4, .boton, .page{
         text-align: center;
     }
     .boton{
@@ -38,6 +38,16 @@ body{
         margin: auto;
         text-align: justify;
     }
+    .form-group, .boton3, .titulo{
+        margin: 6px;
+    }
+    .boton3 a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+   
+   
     
 }
 
@@ -75,16 +85,13 @@ body{
     p, h3, footer{
         color: white;
     }
-
-
-.header{
+    .header{
     width: 400px;
-}
-
-.dropdown-item:hover{
+    }
+    .dropdown-item:hover{
     background-color: grey;
-}
-
+    }
+    
 
 
 header nav ul li a{
@@ -111,10 +118,6 @@ header nav ul li a{
     list-style: none;
         
     }
-
-
-
-
 
 
 .port{
@@ -330,7 +333,7 @@ option{
     padding: auto;   
 }
 
-.boton a{
+.boton3 a{
     text-decoration: none;
     text-align: center;
     color: white;
@@ -391,3 +394,4 @@ h4{
     text-align: left;
     justify-content: center;
 }
+
